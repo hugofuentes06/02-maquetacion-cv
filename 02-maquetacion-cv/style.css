@@ -35,11 +35,8 @@ header{
     z-index: 90;
 }
 
-img {
-    height: 50px;
-}
 
-nav ul a {
+nav ul li a {
     font-size: 1.8rem;
     color:  white;
     margin-left: 4rem;
