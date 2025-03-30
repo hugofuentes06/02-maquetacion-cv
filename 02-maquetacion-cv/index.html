@@ -12,17 +12,37 @@
 <body>
     <header>
         <div class="contenedor">
-            <img class="Vico" src="img/2.png" width="100pxl" alt="Vico">
+            <img class="Vico" src="img/2.png" width="70pxl" alt="Vico">
         </div>
 
-        <nav class="main-menu"> 
-            <ul>
-                <li><a href="#" class="active"> Inicio</a></li>
-                <li><a href="#">Curriculum</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+        <ul class="nav nav-pills nav-underline" style="justify-content: left; margin: 0 1.5cm 0 0;">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#" style="color: white;">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Currículum</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" size="1.8rem" style="color: white;">Proyectos</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Proyectos</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Diseño Gráfico</a></li>
+                    <li><a class="dropdown-item" href="#">Modelado 3D</a></li>
+                    <li><a class="dropdown-item" href="#">Cinematografía</a></li>
+                    <li><a class="dropdown-item" href="#">Fotografía</a></li>
+                    <li><a class="dropdown-item" href="#">Animación 2D</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Contacto</a>
+            </li>
+        </ul>
+        
+        
+        
+        
+
         </nav>
     </header>
     <section class="home">
