@@ -36,7 +36,7 @@ header{
 }
 
 
-nav ul li a {
+.main-menu {
     font-size: 1.8rem;
     color:  white;
     margin-left: 4rem;
